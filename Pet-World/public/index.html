@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Pet World - Início</title>
+</head>
+
+<body>
+    <div class="add-success">
+        <span>Produto adicionado ao carrinho com sucesso!</span>
+    </div>
+    <div class="overlow"></div>
+    <aside class="aside-navigation">
+        <div class="navigation-items-links">
+            <a href="/">
+                <img src="./assets/img/Kauany.jpeg" alt="profile">
+                <span class="nome-usuario">Kauany Santos</span>
+            </a>
+        </div>
+        <div class="opcoes-de-conta">
+            <li class="opcoes">
+                <a href="./index.html">Minha conta</a>
+            </li>
+            <li class="opcoes">
+                <a href="./index.html">Meus pedidos</a>
+            </li>
+            <li class="opcoes">
+                <a href="./index.html">Meu carrinho</a>
+            </li>
+        </div>
+    </aside>
+    <aside class="aside-cart">
+        <div class="text-cart">
+            <h1>Que triste! <br> Seu carrinho está vazio :(</h1>
+        </div>
+        <div class="content-cart"></div>
+        <div class="total-price-buy">
+            <div class="total-price-cart">Total: R$ 0.00</div>
+            <button>Finalizar compra</button>
+        </div>
+    </aside>
+    <nav class="navigation">
+        <div class="nav-higher">
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/img/logo1.jpeg" alt="logo" class="brand-logo">
+                </a>
+            </div>
+            <div class="navigation-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Pesquisar">
+                    <button class="search-btn">
+                        <img src="./assets/img/lupa.jpg" alt="">
+                    </button>
+                </div>
+                <div class="favorite">
+                    <img src="./assets/img/coracao.jpg" alt="">
+                </div>
+                <div class="shop">
+                    <img src="./assets/img/vista-lateral-vazia-do-carrinho-de-compras.jpg" alt="">
+                    <div class="cart-total"></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <ul class="nav-ul-items">
+                <li class="li-item">
+                    <a href="./index.html">Ração</a>
+                </li>
+                <li class="li-item">
+                    <a href="./index.html">Camera</a>
+                </li>
+                <li class="li-item">
+                    <a href="./index.html">Brinquedos</a>
+                </li>
+                <li class="li-item">
+                    <a href="./index.html">Roupas</a>
+                </li>
+                <li class="li-item">
+                    <a href="./index.html">Pet Care</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header-index">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <div class="banner-slide">
+                    <img src="./assets/img/banners/banner2.jpeg" alt="">
+                </div>
+                <div class="banner-slide">
+                    <img src="./assets/img/banners/banner4.jpeg" alt="">
+                </div>
+                <div class="banner-slide">
+                    <img src="./assets/img/banners/banner3.jpeg" alt="">
+                </div>
+                
+            </div>
+            <button id="prevBtn">
+                <img src="./assets/img/prev.svg" alt="">
+            </button>
+            <button id="nextBtn">
+                <img src="./assets/img/next.svg" alt="">
+            </button>
+            <button id="btnStartPause">
+                <img id="imgStartPause" src="./assets/img/pause_circle.svg" alt="">
+            </button>
+        </div>
+    </header>
+    <div class="hidden-models-product">
+        <div class="models-product">
+            <div class="product-favorite">
+                <img src="./assets/img/favorite.svg" alt="">
+            </div>
+            <div class="product-addCart">
+                <img src="./assets/img/add_shopping_cart.svg" alt="">
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-name">
+                        <span>Product name</span>
+                    </div>
+                    <div class="product-prices">
+                        <div class="product-pix">
+                            <span>Á vista no PIX</span>
+                        </div>
+                        <div class="product-price">
+                            <span>R$ 1</span>
+                        </div>
+                        <div class="product-price-original">
+                            <span>R$ 111,11</span>
+                        </div>
+                    </div>
+                    <button class="buyBtnProduct">
+                        COMPRAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="main-index">
+        <div class="container-catalog">
+            <div class="emphasis">
+                <h1>🌟DESTAQUES🌟</h1>
+            </div>
+            <div class="container-product">
+                <button class="prevBtnProducts">
+                    <img src="./assets/img/prev.svg" alt="">
+                </button>
+                <div class="content-product-limite">
+                    <div class="content-product">
+                        <!-- clonar itens da lista aqui -->
+                    </div>
+                </div>
+                <button class="nextBtnProducts">
+                    <img src="./assets/img/next.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="container-categories">
+            <h1>CATEGORIAS</h1>
+            <div class="content-categories">
+                <div class="categorie">
+                    <span>RAÇÃO</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/ração.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="categorie">
+                    <span>CAMERA</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/camera.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="categorie">
+                    <span>BRINQUEDOS</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/brinquedos.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="categorie">
+                    <span>ROUPAS</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/roupa.png" alt="">
+                    </a>
+                </div>
+                <div class="categorie">
+                    <span>PET CARE</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/pet_care.jpeg" alt="">
+                    </a>
+                </div>               
+                <div class="categorie">
+                    <span>HOTEL</span>
+                    <a href="./index.html">
+                        <img src="./assets/img/hotel.jpeg" alt="">
+                    </a>
+                </div>               
+            </div>
+        </div>
+        <div class="conteiner-mostWanted">
+            <h1>MAIS COMPRADOS DE 2023</h1>
+            <div class="content-mostWanted">
+
+            </div>
+        </div>
+        <!-- <div class="container-recommendations">
+            <h1>SUGESTÕES PARA VOCÊ</h1>
+        </div> -->
+    </main>
+
+    <footer class="rodape">
+        <!-- <div class="icones">
+            <a href="https://www.instagram.com" class="icone-instagram"><img src=".//assets/img/instagram.svg"
+                    alt="Instagram"></a>
+            <a href="https://www.facebook.com" class="icone-facebook"><img src=".//assets/img/facebook.svg"
+                    alt="Facebook"></a>
+            <a href="https://web.whatsapp.com" class="icone-whatsapp"><img src=".//assets/img/whatsapp.svg"
+                    alt="WhatsApp"></a>
+        </div> -->
+        <p>&copy; Pet World - 2023</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/product.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/carousel-banner.js"></script>
+    <script src="./assets/js/carousel-products.js"></script>
+</body>
+
+</html>
